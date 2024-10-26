@@ -1,5 +1,7 @@
 # Introducción a Markdown :)
 
+Para abrir Extension de MarkDown Ctrl K + V
+
 Markdown es un lenguaje de marcado ligero que se utiliza comúnmente para formatear texto de una manera sencilla  y legible para la web. Fue creado por John Gruber y Aaron Swartz en 2004  con el objetivo de proporcionar una forma fácil de escribir contenido con formato en línea sin la necesidad de utilizar herramientas complicadas de edición de texto o HTML.
 
 Markdown se basa en la idea de que el formato del texto debería ser lo más simple posible y que el marcado en sí mismo debería ser fácil de leer incluso en su forma no formateada. Utiliza una serie de convenciones de escritura, como asteriscos y guiones bajos, para indicar elementos de formato, como encabezados, listas, enlaces, texto en negrita y cursiva, y mucho más.
@@ -16,12 +18,13 @@ Los encabezados se hacen poniendo uno o varios #
 ###### ###### Sexto XD
 ---
 ### Citas
-Las citas se ponen con el símbolo > precedinendo la cita.
+Las citas se ponen con el símbolo > precediendo la cita.
 Ejemplo:
 \>La vida es para los aventados. -Juan Escutia
 
 Se ve como:
->La vida es para los aventados. -Juan Escutia
+>La vida es para los aventados. 
+>-Juan Escutia
 
 Para poner una cita de dos o más líneas, simplemente se pone en el siguiente renglón:
 \>La vida es para los aventados.
@@ -51,11 +54,16 @@ Para poner sublistas, con un tabulador o cuatro espacios en blanco.
     * Elemento anidado
 
 
-Para crear bloques de codigo se encierra el parrafo entre dos lineas con tres virguillas
+Para crear bloques de codigo se encierra el parrafo entre dos lineas con tres virguillas 
 ~~~js
 //Este es un bloquesito de código :D
 console.log("Hola mundo")
 ~~~
+
+
+```py
+print ("Hola Mundo")
+```
 
 ***
 Regla horizontal, sirve para separar :D
@@ -93,7 +101,7 @@ Para solucionar lo de links largos que llegan a confundir al leer el texto, se p
 
 \[nombreEnlace]\[nombreReferencia]
 \[nombreReferencia]: https://github.com/PROTECO
-
+sw
 Se vería de la siguiente forma:
 [nombreEnlace][nombreReferencia].
 
